@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: crypto_rates
+server:
+  tomcat:
+    relaxed-query-chars: "[,]"
+crypto-client:
+  apiKey: 454ab6aa8cdedff8747584ed315e7e2cd12822a0b6d6dc22d35e7936b41efca3
+  defaultFilters: 'usd,eur,btc,eth'
